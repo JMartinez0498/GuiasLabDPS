@@ -13,12 +13,10 @@ const Form=() => {
         setTodo({[nameO]:e.target.value+"-"+valueO})
     }
     const handleClick = e => {
-        /*if(Object.keys(todo).length === 0 || todo.todo.trim()===''){
+        if(valueO.length === 0 || valueO.trim()===''){
             alert('el campo no puede estar vacio')
             return
-        }*/
-        
-        alert('estoy entrando a cambiar el valor' + todo.todo)
+        }
         setTodos([...todos,todo])
     }
 
